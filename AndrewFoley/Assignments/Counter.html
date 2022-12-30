@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Counter</title>
+
+    <style>
+        body {
+            text-align: center;
+        }
+
+        button {
+            padding: 6px 10px;
+            margin-bottom: 4px;
+            color: #fff;
+            border: none;
+            width: 50px;
+            height: 50px;
+            border-radius: 25px;
+            font-size: 2.0em;
+        }
+
+        .counterzone {
+            margin-bottom: 30px;
+            padding-bottom: 6px;
+            border-bottom: 1px dashed #552121;
+        }
+
+        #countBoard {
+            font-size: 2.3em;
+            background-color: red;
+            padding: 8px 30px;
+            border-bottom-left-radius: 12px;
+            border-bottom-right-radius: 12px;
+        }
+
+        #btnDecrease {
+            background-color: blue;
+        }
+
+        #btnIncrease {
+            background-color: green;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <section class="counterzone">
+            <h3>Count with JavaScript</h3>
+            <p><span id="countBoard">0</span></p>
+            <button id="btnDecrease">-</button>
+            <button id="btnIncrease">+</button>
+        </section>
+    </main>
+    <script src="/javascript/counter.js"></script>
+</body>
+</html>

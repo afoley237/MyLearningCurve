@@ -1,0 +1,9 @@
+a:hover {
+    box-shadow: inset 120px 0 0 0 red;
+}
+h1:active {
+    color: aqua;
+}
+h2:checked {
+    color: brown;
+}

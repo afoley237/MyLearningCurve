@@ -1,0 +1,13 @@
+h1{
+    color: fuchsia;
+    background-color: aqua;  
+}
+
+.fancyclass {
+    font-family: cursive;
+
+}
+
+span ~ p{
+    background-color: aqua;
+}

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Assignment 8 Solution</title>
+    <style>
+        * {
+            text-align: center;
+        }
+
+        img {
+            max-height: 200px;
+            max-width: 200px;
+
+        }
+
+        fieldset {
+            width: 80%;
+            margin: 20px auto;
+            padding: 15px;
+            border: 1px solid green;
+        }
+
+            fieldset * {
+                margin-top: 10px;
+            }
+    </style>
+
+</head>
+<body>
+    <fieldset>
+        <p>
+            Write a JavaScript function that will generate a random number between 0 and the number you enter in the box.
+            Make sure the number entered is not 0 or a negative number.
+        </p>
+        <div>Enter a Number: <input type="text" id="txtrandomNumber" value="10" /></div>
+        <div><button id="btnrandomNumber">Generate Randon Number</button></div>
+        <div id="resultrandomNumber"></div>
+    </fieldset>
+    <fieldset>
+        <p>
+            Write a JavaScript program to display a random image from the following list.
+        </p>
+        <pre>
+https://cse.unl.edu/~aarslan/csce120/images/cat_outside.jpg
+https://cse.unl.edu/~aarslan/csce120/images/cat-george.jpg
+https://cse.unl.edu/~aarslan/csce120/images/adorable-cat.jpg
+https://cse.unl.edu/~aarslan/csce120/images/cat-conjunctivitis-causes.jpg
+</pre>
+        <div>
+            <button id="btnrandomcat">Generate Random Cat Images</button>
+        </div>
+        <div id="resultrandomcat">
+        </div>
+    </fieldset>
+    <fieldset>
+        <p>
+            Write a JavaScript program to check if a given positive number is a multiple of 3 or a multiple of 5 or
+            a multiple of 15 (3 and 5).
+            <br />If it's multiple of 3, display "Flip"
+            <br />If it's multiple of 5, display "Flop"
+            <br />If it's multiple of 15 (multiple of 3 and 5), display "FlipFlop"
+            <br />If it's <strong>neither</strong> multiple 3 or 5 or 15 , display the number
+        </p>
+        <div>Enter Number: <input type="text" id="txtFlipFlop" /></div>
+        <div><button id="btnFlipFlop">Flip or Flop</button></div>
+        <h5 id="resultFlipFlop"></h5>
+    </fieldset>
+<script src="/javascript/assignment-8.js"></script>
+
+</body>
+</html>

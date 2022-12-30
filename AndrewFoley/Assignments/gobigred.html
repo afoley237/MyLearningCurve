@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Go Big Red Game</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            text-align: center;
+        }
+
+        #box {
+            display: inline-block;
+            padding: 10px;
+            margin: 4px;
+            border: solid 1px red;
+            background-color: chocolate;
+            color: white;
+            width: 200px;
+            height: 80px;
+            border-radius: 10px 10px 0 0;
+            font-size: 2.0em;
+        }
+
+        box:hover {
+            cursor: pointer;
+        }
+
+        .counterzone {
+            margin-bottom: 30px;
+            padding-bottom: 6px;
+            border-bottom: 1px dashed #552121;
+        }
+
+        #scoreBoard {
+            font-size: 2.3em;
+        }
+
+        .fade-in {
+            animation: fadeIn 5s;
+        }
+
+        @keyframes fadeIn {
+            0% {
+                opacity: 0;
+            }
+
+            100% {
+                opacity: 1;
+            }
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <section class="counterzone">
+            <h3>Random Color selection: Foundation for Memory Game</h3>
+            <div id="box" class="fade-in">1</div>
+            <p id="scoreBoard"></p>
+        </section>
+    </main>
+    <script src="/javascript/gobigred.js"></script>
+</body>
+</html>

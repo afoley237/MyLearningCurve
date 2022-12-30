@@ -1,0 +1,55 @@
+h1, h2{
+    color: red;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: lighter;
+}
+a {
+    color:blue;
+    font-weight: lighter;
+}
+span{
+    color:blue;  
+    font-weight: bold;
+
+    
+}
+
+
+.cool{
+    color: rgb(0, 180, 170);
+    font-weight: lighter;
+}
+
+table.custom_class {
+	margin:0px;
+	padding:0px;
+	border-spacing:0px;
+	border-collapse:collapse;
+	line-height: 12px;
+	font-family:'Times New Roman', Times, serif;
+	white-space:pre-wrap;
+    border-bottom:solid 1px rgb(170,170,170);
+    text-align: left;
+    font-weight: lighter;
+}
+table.custom_class th {
+  padding: 7px;
+  border-bottom:solid 1px rgb(170,170,170);
+  text-align: left;
+  font-weight: bold;
+}
+table.custom_class td {
+  padding: 7px;
+  text-align: left;
+  font-weight: lighter;
+}
+table.custom_class tr {
+    margin:0;
+    padding:4px;
+    border-bottom:solid 1px rgb(170,170,170);
+    text-align: left;
+    font-weight: lighter;
+
+}
+
+

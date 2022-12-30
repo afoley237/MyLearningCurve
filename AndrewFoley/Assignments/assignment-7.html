@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="CSCE 120 - Learning to Code">
+    <title>Assignment 7 - CSCE 120 - Learning to Code</title>
+
+    <style>
+        body {
+            text-align: center;
+        }
+
+        input, button {
+            padding: 6px 10px;
+        }
+
+        img {
+            width: 300px;
+        }
+
+        button {
+            background-color: green;
+            color: #fff;
+            border: none;
+            border-radius: 8px;
+            margin-bottom: 4px;
+        }
+
+        #form-area {
+            display: inline-block;
+            min-width: 320px;
+            text-align: left;
+        }
+
+        .square {
+            margin-bottom: 30px;
+            padding-bottom: 6px;
+            border-bottom: 1px dashed #552121;
+        }
+
+            .square input {
+                text-align: center;
+            }
+
+            .square #divAgeDisplayResult {
+                margin: 6px auto;
+                text-align: center;
+                color: #fff;
+                background-color: chocolate;
+            }
+    </style>
+</head>
+<body>
+    <h1 id="name"></h1>
+    <div id="form-area">
+        <div class="square">
+            <label for="txtage">What is your age:</label><br>
+            <input type="text" id="txtage" name="txtage">
+            <button id="btnGetAge">Click to Display Age Message</button>
+            <div id="divAgeDisplayResult"></div>
+        </div>
+
+        <div class="square">
+            <h3>Switch Cats</h3>
+            <p>Click on Switch Cats button to display another cat</p>
+            <button id="btnSwitchCats">Switch Cats</button>
+            <div>
+                <img id="coolcats" src="/image/cat1.png" alt="Cat image: lovely cat george.">
+            </div>
+        </div>
+    </div>
+    <script src="/javascript/assignment-7.js"></script>
+</body>
+</html>

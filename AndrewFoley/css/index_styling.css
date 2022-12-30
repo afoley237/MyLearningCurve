@@ -1,0 +1,49 @@
+body {
+    background-color: aquamarine;
+    padding: 20px;
+    margin: 5px;
+}
+h1 {
+    width; 750px;
+    height: 40px;
+    padding: 25px;
+    background-color: red;
+}
+
+h2{
+    color: rgba(88, 4, 130, 0.803);
+}
+
+h3 {
+    width; 750px;
+    height: 20px;
+    padding: 10px;
+    background-color: red;
+    color: white;
+}
+a{
+    color: blue;
+}
+.coolborder{
+    border: 2px dashed red;
+    padding: 10px;
+}
+ol{
+    border: 2px solid red;
+    padding: 10px;
+    padding-left: 30px;
+    font-family: ;
+    line-height: 25px;
+    font-family: sans-serif;
+}
+ul{
+    border: 2px solid red;
+    padding: 10px;
+    padding-left: 30px;
+    line-height: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+p{
+    font-family: sans;
+}

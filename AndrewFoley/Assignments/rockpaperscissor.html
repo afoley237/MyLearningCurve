@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissor</title>
+    <style>
+        body {
+            text-align: center;
+        }
+
+        .gamezone {
+            margin-bottom: 30px;
+            padding-bottom: 6px;
+            border-bottom: 1px dashed #552121;
+        }
+
+            .gamezone a {
+                text-decoration: none;
+                font-size: 8em;
+                padding: 0;
+                color: red;
+            }
+
+                .gamezone a:hover {
+                    color: rgba(250, 10, 10, 0.5);
+                }
+
+        #scoreBoard {
+            font-size: 2.3em;
+        }
+
+        .fade-in {
+            animation: fadeIn 5s;
+        }
+
+        @keyframes fadeIn {
+            0% {
+                opacity: 0;
+            }
+
+            100% {
+                opacity: 1;
+            }
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <section class="gamezone">
+            <h3>Rock Paper Scissor</h3>
+            <div>
+                <a href="#">🪨</a>
+                <a href="#">📰</a>
+            </div>
+            <div>
+                <a href="#">✂️</a>
+            </div>
+            <p id="scoreBoard"></p>
+        </section>
+    </main>
+    <script src="/javascript/rockpaperscissor.js"></script>
+</body>
+</html>
